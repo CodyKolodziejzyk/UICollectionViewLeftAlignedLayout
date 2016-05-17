@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "Giovanni Lodi" => "giovanni.lodi42@gmail.com" }
   s.social_media_url   = "http://twitter.com/mokagio"
   s.platform     = :ios, "6.0"
-  s.ios.deployment_target     = :ios, "6.0"
+  s.ios.deployment_target     = "6.0"
   s.tvos.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/mokagio/UICollectionViewLeftAlignedLayout.git", :tag => version }
   s.source_files  = "UICollectionViewLeftAlignedLayout"
